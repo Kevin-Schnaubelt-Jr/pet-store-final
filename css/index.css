@@ -1,0 +1,21 @@
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+#header-frame, #footer {
+    /* border: 1px solid #000; */
+
+    height: 14rem;
+}
+
+#content-frame {
+    border: 1px solid #000;
+
+    height: 50rem;
+}
+
+#test {
+    color: blue;
+}
