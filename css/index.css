@@ -4,18 +4,22 @@ iframe {
     border: none;
 }
 
-#header-frame, #footer {
+#header-frame {
     /* border: 1px solid #000; */
 
     height: 14rem;
 }
 
 #content-frame {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 
     height: 50rem;
 }
 
-#test {
-    color: blue;
+#footer-frame {
+    border: 1px solid #000;
+
+    height: 10rem;
+
+    background-color: grey;
 }
