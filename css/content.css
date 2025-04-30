@@ -138,3 +138,32 @@
     padding-top: 1rem;
     font-size: 0.8rem;
 }
+
+#hero-alert {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #ffeb3b;
+    color: #333;
+    width: 100%;
+}
+
+#hero-alert a {
+    color: #0044cc;
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}

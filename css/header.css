@@ -1,17 +1,38 @@
 #header {
     height: 100%;
     width: 100%;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border-bottom: 2px solid #ccc;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+#upper-header-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.4rem;
 }
 
 #logo-wrapper {
-    height: 10rem;
-    width: 10rem;
-    overflow: hidden;
+    height: 6rem;
+    width: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,27 +41,40 @@
 #logo-wrapper img {
     display: block;
     height: 100%;
-    transform: scale(1.4);
     object-fit: contain;
+    transform: scale(1.4); /* restores your zoom effect */
 }
 
-#upper-header-group {
-    display: flex;
+.site-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
 }
 
 nav {
-    background-color: blue;
-    height: 25%;
     width: 100%;
+    background-color: #3b5998;
+}
 
+nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
