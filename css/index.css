@@ -17,9 +17,8 @@ iframe {
 }
 
 #footer-frame {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 
-    height: 10rem;
+    height: 14rem;
 
-    background-color: grey;
 }
