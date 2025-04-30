@@ -9,6 +9,10 @@
     border-bottom: 2px solid #ccc;
 }
 
+#burger-img-wrapper {
+    display: none;
+}
+
 .skip-link {
     position: absolute;
     top: -40px;
@@ -77,4 +81,30 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #burger-img-wrapper {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #burger-img-wrapper img {
+        display: block;
+        height: 100%;
+        transform: scale(1);
+    }
+
+    #nav-list {
+        display: none;
+    }
+
 }
