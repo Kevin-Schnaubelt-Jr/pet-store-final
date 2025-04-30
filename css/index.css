@@ -26,15 +26,15 @@ iframe {
 
     @media (max-width: 768px) {
         #header-frame {
-            height: 10rem;
+            height: 12rem;
         }
 
         #content-frame {
-            height: 50rem;
+            height: 120rem;
         }
 
         #footer-frame {
-            height: 26rem;
+            height: 32rem;
         }
 
     }
