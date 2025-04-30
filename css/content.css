@@ -201,4 +201,17 @@ button:hover {
         margin-bottom: 1rem;
 
     }
+
+    #shop-sale {
+        width:50%;
+    }
+
+    #sale-img-wrapper {
+        width: 50%;
+    }
+
+    #sale-img-wrapper img {
+        transform: scale(1.2);
+    }
+    
 }
