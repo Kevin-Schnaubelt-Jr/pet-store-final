@@ -4,20 +4,37 @@ iframe {
     border: none;
 }
 
-#header-frame {
-    /* border: 1px solid #000; */
-    height: 9rem;
-}
 
-#content-frame {
-    /* border: 1px solid #000; */
 
-    height: 50rem;
-}
+    #header-frame {
+        /* border: 1px solid #000; */
+        height: 9rem;
+    }
 
-#footer-frame {
-    /* border: 1px solid #000; */
+    #content-frame {
+        /* border: 1px solid #000; */
 
-    height: 14rem;
+        height: 50rem;
+    }
 
-}
+    #footer-frame {
+        /* border: 1px solid #000; */
+
+        height: 14rem;
+
+    }
+
+    @media (max-width: 768px) {
+        #header-frame {
+            height: 10rem;
+        }
+
+        #content-frame {
+            height: 50rem;
+        }
+
+        #footer-frame {
+            height: 26rem;
+        }
+
+    }
